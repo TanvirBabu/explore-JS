@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    
+
+    <!-- Onclick Method -->
+    <h1 onclick="console.log('Hello World')">Exploring Events</h1>
+    
+    <button onclick="handleClick()">click me</button>      </br> </br>
+
+    <button onmousedown="handleClick()">Mouse down</button>  </br> </br>  
+    <button onmousemove="handleClick()">Mouse move</button>  </br> </br>
+    <button onmouseout="handleClick()">Mouse out</button>   </br> </br>
+    <button onmouseover="handleClick()">Mouse over</button>  </br> </br>
+    <button onmouseup="handleClick()">Mouse up</button>    </br> </br>
+    <button onmousewheel="handleClick()">Mouse wheel</button>
+
+
+
+
+    <script>
+        function handleClick() {
+            console.log('Some one clicked me')
+        }
+    </script>
+
+
+</body>
+</html>

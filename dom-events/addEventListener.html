@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handler</title>
+</head>
+<body>
+    
+    <!-- Background color change from click button -->
+    <h2> Chang Background Color From Button</h2>
+
+    <button id="red">Red color</button>
+    <button id="blue">Blue color</button>
+    <button id="yellow">Black color</button>
+    <button id="green">Green color</button>
+    <button id="tomato">Tomato color</button>
+
+
+    <script>
+        // function handleClick(){
+        //     document.body.style.backgroundColor = 'red';
+        // }
+
+        // var redBtn = document.getElementById('red');
+        // redBtn.onclick = handleClick;
+
+
+
+        document.getElementById('red').addEventListener('click', function(){
+            document.body.style.backgroundColor = 'red';
+            document.body.style.color = '#fff';
+        })
+
+        document.getElementById('blue').addEventListener('click', function(){
+            document.body.style.backgroundColor = 'blue';
+        })
+        
+        document.getElementById('yellow').addEventListener('click', function(){
+            document.body.style.backgroundColor = 'yellow';
+        })
+        
+        document.getElementById('green').addEventListener('click', function(){
+            document.body.style.backgroundColor = 'green';
+        })
+        
+        document.getElementById('tomato').addEventListener('click', function(){
+            document.body.style.backgroundColor = 'tomato';
+        })
+        
+    </script>
+
+</body>
+</html>

@@ -14,7 +14,7 @@ var n = 5
 for (var i = 1; i <= n; i++){
     var result = ''
     for (var j = 1; j <= i; j++){
-        result += j + ' ' 
+        result += j + ' '                //sum
     }
     console.log(result)
 }
@@ -42,7 +42,7 @@ for (var i = 1; i <= n; i++){
 // * * * * *
 // * * * * *
 
-var n = 5
+var n = 15
 for (var i = 1; i <= n; i++){
     var result = ''
     for (var j = 1; j <= n; j++){

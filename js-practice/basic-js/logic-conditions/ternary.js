@@ -9,7 +9,7 @@ if (n % 2 == 0){
 
 console.log(str)
 
-// Structure:       condition ? true side : false side
+// Ternary Operator Structure:       condition ? true side : false side
 
 var n = 11;
 var str =''                                           // This empty string in i need to store Something ..

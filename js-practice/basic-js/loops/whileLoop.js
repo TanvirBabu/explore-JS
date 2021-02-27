@@ -1,11 +1,11 @@
 // -- While Loop
 
 // --  Example 1
-// var i = 10;
-// while (i < 20){
-//     console.log(i);
-//     i++
-// }
+var i = 10;
+while (i < 20){
+    console.log(i);
+    i++
+}
 
 
 // --  Example 2  ***

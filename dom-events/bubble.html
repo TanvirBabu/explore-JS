@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bobble </title>
+</head>
+<body>
+    
+    <h1>My List</h1>
+
+    <div id="container">
+        <ul id="myList">
+            <li class="items">Lorem, ipsum dolor.</li>
+            <li class="items">Voluptatem, dicta possimus?</li>
+            <li class="items">Distinctio, veniam praesentium!</li>
+            <li class="items">Fugiat, distinctio numquam.</li>
+            <li class="items">A, laudantium molestiae?</li>
+        </ul>
+    </div>
+
+    <button id="addNew">Add New Item</button>
+
+
+    <script>
+        var items = document.getElementsByClassName('items');
+        for (var i = 0; i < items.length; i++){
+            var list = items[i];
+            list.addEventListener('click', function(event){
+                //console.log(this,);
+                //console.log(this, event.target.innerText);
+                //console.log(this, event.target.innerText);
+               event.target.parentNode.removeChild(event.target)
+            })
+        }
+
+        // New Li Item Add +
+        document.getElementById('addNew').addEventListener('click', function(event){
+            var itemsParent = document.getElementById('myList');
+            var newItem = document.createElement('li');
+            newItem.innerText = 'Brand New Items';
+            itemsParent.appendChild(newItem);
+        })
+    </script>
+
+
+</body>
+</html>

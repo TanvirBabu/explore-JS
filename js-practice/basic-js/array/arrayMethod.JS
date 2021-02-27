@@ -3,17 +3,17 @@
 var arr = [3, 6, 8, 5]
 //var arr2 = [5, 10, 15, 20]
 
-// console.log(arr)
-// console.log(arr.join(' '))
-// console.log(arr.join(','))
-// console.log(arr.join(', '))
-// console.log(arr.join(' | '))
-// console.log(arr.join(' * '))
+console.log(arr)
+console.log(arr.join(' '))
+console.log(arr.join(','))
+console.log(arr.join(', '))
+console.log(arr.join(' | '))
+console.log(arr.join(' * '))
 
-// console.log(arr.fill('Tanvir'))
-// console.log(arr.fill(true))
+console.log(arr.fill('Tanvir'))
+console.log(arr.fill(true))
 
-//console.log(Array.isArray(arr))
+console.log(Array.isArray(arr))
 
 
 
