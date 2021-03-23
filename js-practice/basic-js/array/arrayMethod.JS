@@ -51,3 +51,11 @@ b[0] = 5
 
 console.log(a)
 console.log(b)
+
+
+
+// Converting Arrays to Strings
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var result = fruits.toString();
+
+console.log(result);

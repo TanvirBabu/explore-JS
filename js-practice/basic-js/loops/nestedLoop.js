@@ -26,7 +26,7 @@ for (var i = 1; i <= n; i++){
 // * * * * 
 // * * * * *
 
-var n = 10
+var n = 5
 for (var i = 1; i <= n; i++){
     var result = ''
     for (var j = 1; j <= i; j++){
@@ -42,7 +42,7 @@ for (var i = 1; i <= n; i++){
 // * * * * *
 // * * * * *
 
-var n = 15
+var n = 6
 for (var i = 1; i <= n; i++){
     var result = ''
     for (var j = 1; j <= n; j++){

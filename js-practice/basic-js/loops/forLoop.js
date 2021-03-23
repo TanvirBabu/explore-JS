@@ -2,7 +2,7 @@
 
 // -- Example 1
 for (var i = 5; i < 15; i++){
-    console.log((i + 1) +' Tanvir Hassan')       // Let the value of (i) come serial wise. that's way i + 1
+    console.log((i + 1) +' Tanvir Hassan') // Let the value of (i) come serial wise. that's way i + 1
 }
 
 

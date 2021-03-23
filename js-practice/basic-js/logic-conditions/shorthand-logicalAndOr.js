@@ -1,31 +1,30 @@
 // --   Here like ( truthy value and falsy value )          important ***    -- tutorial (27) S-lerner
 
-//var name = '';
+var myName = '';
 
-//var fullName = '';
+var fullName = '';
 
-// if (name.length == 0){
-//     fullName = 'Tanvir Hassan'
-// } else{
-//     fullName = name
-// }
+if (myName.length == 0){
+    fullName = 'Tanvir Hassan'
+} else{
+    fullName = myName
+}
 
-// --                           SortHand
-var name = '';
-//var name = 'MR. XYZ';
+// SortHand
+var myName = '';
+//var myName = 'MR. XYZ';
 
-var fullName = name || 'Tanvir Hassan'
+var fullName = myName || 'Tanvir Hassan'
 console.log(fullName)
 
 
 
 // -- another example
+var isOk = true;
 
-//var isOk = true;
-
-// if (isOk){
-//     console.log('Everything is Ok')
-// }
+if (isOk){
+    console.log('Everything is Ok')
+}
 
 var isOk = true;
 

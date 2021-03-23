@@ -34,3 +34,21 @@ if (i % 2 === 0){
 if (i % 2 === 1){
     console.log(i + ' is Odd Number');
 }
+
+
+
+// Display greeting message...
+var hour = new Date().getHours(); 
+var greeting;
+
+if (hour < 12){
+    greeting = ('Good Morning');
+
+} else if (hour < 18) {
+    greeting = ('Good Day');
+
+} else {
+    greeting = ('Good Evening');
+}
+
+console.log(greeting)

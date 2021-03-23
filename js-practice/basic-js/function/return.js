@@ -3,7 +3,7 @@
 //The function will break from where it will return. The executed will break
 //So one thing to keep in mind when returning, only I can return at the end of my function declaration. I will never return until then. The rest of the logic below will not exit ..
 
-function addAll (){
+function addAll(){
     var sum = 0;
     for (var i = 0; i < arguments.length; i ++){
         sum += arguments[i]
@@ -11,8 +11,7 @@ function addAll (){
     return sum
 }
 
-
-//console.log(addAll(1, 2, 3))
+console.log(addAll(1, 2, 3))
 
 var result = addAll(1, 2, 3);  // variable a store kor
 console.log(result);

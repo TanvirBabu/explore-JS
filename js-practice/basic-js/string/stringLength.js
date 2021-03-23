@@ -6,9 +6,7 @@ console.log(str.charAt(2))
 
 
 
-
-// ------------------              here i am using - ( String, Loop, condition, Comparison Operator and increment - decrement )
-
+// ------  here i am using - ( String, Loop, condition, Comparison Operator and increment - decrement )
 var str = 'This is String' 
 var length = 0
 

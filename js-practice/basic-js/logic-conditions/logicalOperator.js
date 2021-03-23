@@ -27,21 +27,21 @@ var d = 40;
 // var c = 30;
 // var d = 40;
 
-// --                                                          &&- and operator Example   
+// &&- and operator Example   
 if (a > b && c > d){
     console.log('A is greater than B and C is greater than D')
 } else{
     console.log('At least one condition is false')
 }
 
-// --                                                          ||- or operator Example
+// ||- or operator Example
 if (a > b || c > d){
     console.log('A is greater than B or C is greater than D')
 } else{
     console.log('At least one condition is false')
 }
 
-// --                                                           !- not operator Example
+// !- not operator Example
 var check = !(a > b)
 console.log(check);
 

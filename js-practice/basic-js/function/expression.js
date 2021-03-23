@@ -6,8 +6,6 @@
 // Because we can also write a function through expression.
 
 // How to declare a function as an expression....
-
-
 var addition = function add(a, b) {
     return a + b
 }

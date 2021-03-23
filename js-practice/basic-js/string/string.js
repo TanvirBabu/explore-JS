@@ -22,3 +22,18 @@ console.log(str)
 var n = 20
 var str = String(n)        // convert number to string
 console.log(str)
+
+
+
+
+
+
+
+
+
+// Extracting String Parts
+// There are 3 methods for extracting a part of a string:
+
+// slice(start, end)
+// substring(start, end)
+// substr(start, length)

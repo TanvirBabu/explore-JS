@@ -1,11 +1,11 @@
 // Arguments
 
 
-// function test(a, b, c) {
-//     console.log(arguments);
-// }
+function test(a, b, c) {
+    console.log(arguments);
+}
 
-// test(10, 20, 30);
+test(10, 20, 30);
 
 
 
@@ -21,7 +21,6 @@ test(10, 20, 30);
 
 
 //---------------------------------------  (sum+)
-
 function addAll (){
     var sum = 0;
     for (var i = 0; i < arguments.length; i ++){

@@ -1,8 +1,27 @@
 // -- Array [ ]
 
-// What is array? -  Array is a Data Structure where we can organize multiple data under a single variable
+// What is an array? -  Array is a Data Structure where we can organize multiple data under a single variable
 
 // Array Declare ....
+var carsCollection = ['Ferrari', 'ODI', 'BMW', 'VW', 'Hyundai', 'KIA', 'Toyota'];
+
+// Using the JavaScript Keyword new
+var carsCollection = new Array('Ferrari', 'ODI', 'BMW', 'VW', 'Hyundai', 'KIA', 'Toyota');
+
+// Access the Elements of an Array
+carsCollection[0];
+
+// Changing an Array Element
+carsCollection[2] = 'Mercedes';
+
+// The length Property
+carsCollection.length;
+
+// Accessing the First Array Element
+var firstArrayElement = carsCollection[0];
+
+// Accessing the Last Array Element
+var lastArrayElement = fruits[carsCollection.length - 1];
 
 var arr = [1, 2, 3, 4, 5]
 
